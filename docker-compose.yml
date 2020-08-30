@@ -41,8 +41,6 @@ services:
       - helferplannetwork
     volumes:
       - helferplandata:/data/db
-    ports:
-      - 27017:27017
 
 networks:
   helferplannetwork:
